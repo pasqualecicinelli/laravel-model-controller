@@ -21,4 +21,4 @@ Route::get(
 
 )->name('home');
 
-Route::get('/movies', [MovieController::class, 'movie']);
+Route::get('/movies', [MovieController::class, 'movie'])->name('movie');
